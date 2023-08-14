@@ -4,33 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About </title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-        }
-        .content {
+    <head>
+        <title>Desk Booking Management</title>
+        <style>
+             .content {
             display: flex;
             flex: 1;
-        }          
-        footer {
-            background-color: #6bc1d6;
-            color: #fff;
+        }      
+       
+        body {
+            background-image :url("C:/Users/Navya/Desktop/OIP.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            background-color: #3a9cb4;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            display: inline;
+            margin-right: 20px;
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
             text-align: center;
             padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
         }
+        
+
     </style>
+    
 </head>
+
+<body>   
+    
+    <header class="header">
+        <h1>Desk Management System</h1>
+        <nav>
+                <a href="#">Home</a>
+                <a href="About.html">About</a>
+                <a href="Contact_us.html">Contact</a>
+                <a href="Login.html">Login</a>
+        </nav>
+    </header>
+    
+</body>
+
+
+
 <body>
     <header>
         <h1>About Desk Booking Management</h1>
@@ -44,8 +74,8 @@
                   </p>
         </main>
     </div>
-    <footer>
-        <p>&copy; 2023 Admin Page. All rights reserved.</p>
+    <footer class="footer">
+        <p>&copy; 2023 My Website. All rights reserved.</p>
     </footer>
 </body>
 </html>

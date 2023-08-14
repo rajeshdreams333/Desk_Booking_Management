@@ -1,11 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Login Page</title>
-    <style>
-                body {
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page </title>
+    <head>
+        <title>Desk Booking Management</title>
+        <style>
+             .content {
+            display: flex;
+            flex: 1;
+        }      
+        body {
+            background-image :url("C:/Users/Navya/Desktop/OIP.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
         }
 
         .login-container {
@@ -34,20 +44,65 @@
             border-radius: 3px;
             cursor: pointer;
         }
+        .header {
+            background-color: #3a9cb4;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            display: inline;
+            margin-right: 20px;
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+        
+
     </style>
+    
 </head>
+
+<body>   
+    
+    <header class="header">
+        <h1>Desk Management System</h1>
+        <nav>
+                <a href="#">Home</a>
+                <a href="About.html">About</a>
+                <a href="Contact_us.html">Contact</a>
+                <a href="Login.html">Login</a>
+        </nav>
+    </header>
+    
+</body>
+
+
+
 <body>
-    <div class="login-container">
-        <h2>Login</h2>
-        <form>
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required>
-            <br>
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required>
-            <br>
-            <input type="submit" value="Login">
-        </form>
-    </div>
+    <body>
+        <div class="login-container">
+            <h2>Login</h2>
+            <form>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <br>
+                <input type="submit" value="Login">
+            </form>
+        </div>
+    <footer class="footer">
+        <p>&copy; 2023 My Website. All rights reserved.</p>
+    </footer>
 </body>
 </html>
